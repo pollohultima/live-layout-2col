@@ -4,8 +4,42 @@
     padding: 0;
 }
 
+main {
+    height: 800px;
+}
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+}
+
+.sidebar, .contenuto {
+    float: left;
+    height: 100%;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: blue;
+}
+
+.contenuto {
+    width: 70%;
+    background-color: red;
+}
+
+.siteheader {
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.sitefooter {
+    height: 200px;
+    background-color: orange;
 }
